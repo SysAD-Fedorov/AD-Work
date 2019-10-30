@@ -14,6 +14,16 @@ $FirstName = Read-Host 'Ведите Имя пользователя'
 
 $Description = Read-Host 'Ведите Должность пользователя'
 
+$DisplayName = $FirstName + ' ' + $LastName
+
+$SAM = $FirstName[0].ToString().ToLower() + $LastName.ToLower()
+
+$userPrincipalName = $SAM + '@hq.fix.ru'
+
+$mail = $SAM + '@fix.ru'
+
+# (Get-ADUser -filter *).SamAccountName -eq $SAM
+
 #$OU = 'OU=Users,OU=SAD,OU=CG FIX,DC=hq,DC=fix,DC=ru'
 
 #$Description = Read-Host 'Ведите Должность пользователя'
@@ -85,14 +95,6 @@ Switch($choice){
     30  {$OU = 'OU=Users,OU=Testing Team,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru'}
     31  {$OU = 'OU=Users,OU=VASP,OU=CG FIX,DC=hq,DC=fix,DC=ru'}
 }
-
-$DisplayName = $FirstName + ' ' + $LastName
-
-$SAM = $FirstName[0].ToString().ToLower() + $LastName.ToLower()
-
-$userPrincipalName = $SAM + '@hq.fix.ru'
-
-$mail = $SAM + '@fix.ru'
 
 Add-Type -AssemblyName System.Web
 $Password = [System.Web.Security.Membership]::GeneratePassword(8,2)
