@@ -1,7 +1,6 @@
 
 Import-Module ActiveDirectory
 
-
 $DefaultGroups = 'DisableScripts', 'ConfluenceUsersGroup', 'JiraUsersGroup'
 
 $LastName = Read-Host 'Ведите Фамилию пользователя'
@@ -97,7 +96,7 @@ Switch($choice){
 }
 
 Add-Type -AssemblyName System.Web
-$Password = [System.Web.Security.Membership]::GeneratePassword(8,2)
+$Password = [System.Web.Security.Membership]::GeneratePassword(8,0)
 
  
 <# С помощью командлета New-ADUser добавл?ем в AD пользователей. Здесь используются строго определенные параметры для задания нужных опций учетной запи?и пользовател?, #>
