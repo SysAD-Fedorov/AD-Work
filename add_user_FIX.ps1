@@ -3,6 +3,8 @@ Import-Module ActiveDirectory
 
 $DefaultGroups = 'DisableScripts', 'ConfluenceUsersGroup', 'JiraUsersGroup'
 
+$DomainController = 'dchetznera.hq.fix.ru'
+
 $LastName = Read-Host 'Ведите Фамилию пользователя'
 
 #$LastName =$LastName.ToLower()
@@ -102,11 +104,11 @@ $Password = [System.Web.Security.Membership]::GeneratePassword(8,0)
 <# С помощью командлета New-ADUser добавл?ем в AD пользователей. Здесь используются строго определенные параметры для задания нужных опций учетной запи?и пользовател?, #>
 <# полный перечень которых можно по?мотреть по ??ылке http://technet.microsoft.com/en-us/library/ee617253.aspx. Так, например, дл? задани? отче?тва необходимо и?пользовать параметр -OtherName. #>
 
-New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true -Path $OU -Description $Description -EmailAddress $mail -Server 'dchetznera.hq.fix.ru'
+New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true -Path $OU -Description $Description -EmailAddress $mail -Server $DomainController
 
 ForEach ($Group in $DefaultGroups)
     {
-    Add-ADGroupMember -Identity $Group -Members $SAM 
+    Add-ADGroupMember -Identity $Group -Members $SAM -Server $DomainController
     }
 Write-Host $Password
 
