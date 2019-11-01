@@ -102,7 +102,7 @@ $Password = [System.Web.Security.Membership]::GeneratePassword(8,0)
 <# — помощью командлета New-ADUser добавл?ем в AD пользователей. «десь используютс€ строго определенные параметры дл€ задани€ нужных опций учетной запи?и пользовател?, #>
 <# полный перечень которых можно по?мотреть по ??ылке http://technet.microsoft.com/en-us/library/ee617253.aspx. “ак, например, дл? задани? отче?тва необходимо и?пользовать параметр -OtherName. #>
 
-New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true -Path $OU -Description $Description -EmailAddress $mail 
+New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true -Path $OU -Description $Description -EmailAddress $mail -Server 'dchetznera.hq.fix.ru'
 
 ForEach ($Group in $DefaultGroups)
     {
