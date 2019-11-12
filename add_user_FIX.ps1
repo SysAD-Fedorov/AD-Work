@@ -128,7 +128,7 @@ function sendMail {
     $msg.subject = "New user - - $DisplayName"
     #     $msg.body = (Get-Content $TmpFile1 | out-string)
     #     $msg.BodyEncoding =  Encoding.GetEncoding(utf8);
-        $msg.body = @"
+    $msg.body = @"
     Новый пользователь!
 
     Пользователь:   $DisplayName
@@ -136,5 +136,6 @@ function sendMail {
     Подразделение:	$OU
     Пароль:         $Password
 "@
+    $smtp.Send($msg)
 }
 sendMail
