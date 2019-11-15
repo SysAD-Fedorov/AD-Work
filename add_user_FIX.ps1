@@ -64,6 +64,7 @@ Write-Host '28. InformPartner - Team Development'
 Write-Host '29. InformPartner - Technical Team'
 Write-Host '30. InformPartner - Testing Team'
 Write-Host '31. VASP'
+Write-Host '33. Отдел развития'
     
 $choice = Read-Host 'В какой проект пришел?'
 Switch ($choice) {
@@ -98,6 +99,7 @@ Switch ($choice) {
     29 { $OU = 'OU=Users,OU=Technical Team,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     30 { $OU = 'OU=Users,OU=Testing Team,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     31 { $OU = 'OU=Users,OU=VASP,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
+    33 { $OU = 'OU=Users,OU=ORSE,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
 }
 Add-Type -AssemblyName System.Web
 $Password = [System.Web.Security.Membership]::GeneratePassword(8, 0)
@@ -132,7 +134,7 @@ function sendMail {
     Новый пользователь!
 
     Пользователь:   $DisplayName
-    Логин:          $userPrincipalName
+    Логин:          $SAM
     Подразделение:	$OU
     Пароль:         $Password
 "@
