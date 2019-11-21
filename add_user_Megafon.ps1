@@ -116,7 +116,7 @@ if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
 $userPrincipalName = $SAM + '@hq.fix.ru'
 
 Add-Type -AssemblyName System.Web
-$Password = [System.Web.Security.Membership]::GeneratePassword(8, 0)
+$Password = [System.Web.Security.Membership]::GeneratePassword(8, 1)
 
 <# — помощью командлета New-ADUser добавл?ем в AD пользователей. «десь используютс€ строго определенные параметры дл€ задани€ нужных опций учетной запи?и пользовател?, #>
 <# полный перечень которых можно по?мотреть по ??ылке http://technet.microsoft.com/en-us/library/ee617253.aspx. “ак, например, дл? задани? отче?тва необходимо и?пользовать параметр -OtherName. #>
