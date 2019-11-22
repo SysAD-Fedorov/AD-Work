@@ -149,10 +149,10 @@ function sendMail {
     $msg.body = @"
     Новый пользователь!
 
-    Пользователь:   $DisplayName
-    Логин:          $SAM
-    Подразделение:	$OU
-    Пароль:         $Password
+Пользователь:   $DisplayName
+Логин:          $SAM
+Пароль:         $Password
+Подразделение:	$OU
 "@
     $smtp.Send($msg)
 }
