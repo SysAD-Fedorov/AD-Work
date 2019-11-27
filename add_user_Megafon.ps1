@@ -91,7 +91,7 @@ if ($OU -notmatch '.*megafon') {
     if ( (Read-Host "Програмист? (y/n)") -eq "y" ) {
         $DefaultGroups = $DefaultGroups + 'GitLabUsersGroup'
     }
-    
+    $post = Read-Host "Создавать почтовый ящик? (y/n)"     
 }
 else {
     $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
@@ -124,10 +124,16 @@ New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrinc
 
 Write-Host "Создание учётной записи, пожалуйста подождите..." -ForegroundColor DarkCyan
 
+if ($post -eq "y") {
+    Set-ADUser -Identity $SAM -add @{"kerio-Mail-AccountEnabled" = "1"; 'kerio-Mail-Active' = 'hq.fix.ru' } -server 'dchetznera.hq.fix.ru'
+    }
+
 ForEach ($Group in $DefaultGroups) {
     Add-ADGroupMember -Identity $Group -Members $SAM -Server $DomainController
     }
+
 Write-Host $Password
+
 $Sndr = 'dchetznera@fix.ru'
 $Rcpt = 'afedorov@fix.ru'
 
