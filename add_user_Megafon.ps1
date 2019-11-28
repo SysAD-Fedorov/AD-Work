@@ -91,9 +91,22 @@ if ($OU -notmatch '.*megafon') {
     if ( (Read-Host "Програмист? (y/n)") -eq "y" ) {
         $DefaultGroups = $DefaultGroups + 'GitLabUsersGroup'
     }
-    $post = Read-Host "Создавать почтовый ящик? (y/n)"     
+    if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
+        $NextName = Read-Host 'Пользователь с такой учетной записью уже существует. Пожалуйства введите отчество'
+        $x = 0
+        do {
+            $x
+            $SAM = $SAM + $NextName[$x].ToString().ToLower()
+            $x = $x + 1
+            $SAM
+        }
+        while ((Get-ADUser -filter *).SamAccountName -eq $SAM)
+    }
+    $post = Read-Host "Создавать почтовый ящик? (y/n)"
 }
 else {
+    if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
+        $NextName = Read-Host 'Пользователь с такой учетной записью уже существует. Пожалуйства введите отчество'
     $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
     $SAM = $FirstName.ToLower() + '.' + $LastName.ToLower()
     $mail = $SAM + '@Megafon.ru'
@@ -101,17 +114,7 @@ else {
     $CHANGE_PASSWORD_AT_LOGON = $false
 }
 
-if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
-    $NextName = Read-Host 'Пользователь с такой учетной записью уже существует. Пожалуйства введите отчество'
-    $x = 0
-    do {
-        $x
-        $SAM = $SAM + $NextName[$x].ToString().ToLower()
-        $x = $x + 1
-        $SAM
-    }
-    while ((Get-ADUser -filter *).SamAccountName -eq $SAM)
-}
+
 
 $userPrincipalName = $SAM + '@hq.fix.ru'
 
