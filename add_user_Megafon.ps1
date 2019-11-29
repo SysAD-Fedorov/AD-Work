@@ -107,11 +107,12 @@ if ($OU -notmatch '.*megafon') {
 else {
     if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
         $NextName = Read-Host 'Пользователь с такой учетной записью уже существует. Пожалуйства введите отчество'
-    $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
-    $SAM = $FirstName.ToLower() + '.' + $LastName.ToLower()
-    $mail = $SAM + '@Megafon.ru'
-    $company = 'External'
-    $CHANGE_PASSWORD_AT_LOGON = $false
+        $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
+        $SAM = $FirstName.ToLower() + '.' + $LastName.ToLower()
+        $mail = $SAM + '@Megafon.ru'
+        $company = 'External'
+        $CHANGE_PASSWORD_AT_LOGON = $false
+    }
 }
 
 
