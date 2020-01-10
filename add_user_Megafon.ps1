@@ -68,7 +68,7 @@ Switch ($choice) {
     19 { $OU = 'OU=Users,OU=Product Partnership,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     20 { $OU = 'OU=Users,OU=SAD,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     21 { $OU = 'OU=Users,OU=Secretariat,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
-    22 { $OU = 'OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
+    22 { $OU = 'OU=Users,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     23 { $OU = 'OU=Users,OU=Call-center,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     24 { $OU = 'OU=Users,OU=Collaboration,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
     25 { $OU = 'OU=Users,OU=Fraud,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru' }
@@ -88,6 +88,7 @@ if ($OU -notmatch '.*megafon') {
     $SAM = $FirstName[0].ToString().ToLower() + $LastName.ToLower()
     $mail = $SAM + '@fix.ru'
     $CHANGE_PASSWORD_AT_LOGON = $true
+    $PasswordNeverExpires = $false
     if ( (Read-Host "Програмист? (y/n)") -eq "y" ) {
         $DefaultGroups = $DefaultGroups + 'GitLabUsersGroup'
     }
@@ -105,13 +106,14 @@ if ($OU -notmatch '.*megafon') {
     $post = Read-Host "Создавать почтовый ящик? (y/n)"
 }
 else {
+    $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
+    $SAM = $FirstName.ToLower() + '.' + $LastName.ToLower()
+    $mail = $SAM + '@Megafon.ru'
+    $company = 'External'
+    $CHANGE_PASSWORD_AT_LOGON = $false
+    $PasswordNeverExpires = $true
     if ((Get-ADUser -filter *).SamAccountName -eq $SAM) {
         $NextName = Read-Host 'Пользователь с такой учетной записью уже существует. Пожалуйства введите отчество'
-        $DefaultGroups = 'ConfluenceUsersGroup', 'JiraUsersGroup'
-        $SAM = $FirstName.ToLower() + '.' + $LastName.ToLower()
-        $mail = $SAM + '@Megafon.ru'
-        $company = 'External'
-        $CHANGE_PASSWORD_AT_LOGON = $false
     }
 }
 
@@ -124,7 +126,7 @@ $Password = [System.Web.Security.Membership]::GeneratePassword(8, 1)
 
 <# С помощью командлета New-ADUser добавл?ем в AD пользователей. Здесь используются строго определенные параметры для задания нужных опций учетной запи?и пользовател?, #>
 <# полный перечень которых можно по?мотреть по ??ылке http://technet.microsoft.com/en-us/library/ee617253.aspx. Так, например, дл? задани? отче?тва необходимо и?пользовать параметр -OtherName. #>
-New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $CHANGE_PASSWORD_AT_LOGON -Path $OU -Description $Description -EmailAddress $mail -Server $DomainController -Company $company
+New-ADUser -Name $DisplayName -SamAccountName $SAM -UserPrincipalName $userPrincipalName -DisplayName $DisplayName -GivenName $firstname -Surname $lastname -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $CHANGE_PASSWORD_AT_LOGON -PasswordNeverExpires $PasswordNeverExpires -Path $OU -Description $Description -EmailAddress $mail -Server $DomainController -Company $company
 
 Write-Host "Создание учётной записи, пожалуйста подождите..." -ForegroundColor DarkCyan
 
