@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <WebURL>http://sup.fix.ru/windows/pss</WebURL>
+  <PathScript>C:\Scripts</PathScript>
+  <MailConfig>
+    <SMTPServer>mail.fix.ru</SMTPServer>
+    <FromEmail>winlog@fix.ru</FromEmail>
+    <ToEmail>anijazov@fix.ru</ToEmail>
+  </MailConfig>
+  <Version>2.2</Version>
+</Root>

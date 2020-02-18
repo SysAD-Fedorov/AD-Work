@@ -1,0 +1,903 @@
+﻿**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200116104926
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 5844
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Mansur Mirkamilov,OU=Users,OU=VASP,OU=CG FIX,DC=hq,DC=fix,DC=ru
+mmirkamilov@fix.ru
+Пользователь имеет почту mmirkamilov@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200116104938
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200116114926
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3936
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Alina Nasibullina,OU=Users,OU=Epayments,OU=CG FIX,DC=hq,DC=fix,DC=ru
+anasibullina@fix.ru
+Пользователь имеет почту anasibullina@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200116114927
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200116141927
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 5192
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Olga Najmushina,OU=Users,OU=131,OU=CG FIX,DC=hq,DC=fix,DC=ru
+onajmushina@fix.ru
+Пользователь имеет почту onajmushina@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200116141927
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200122083424
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3120
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Dmitrii Ratov,OU=Users,OU=EPN,OU=CG FIX,DC=hq,DC=fix,DC=ru
+dratov@fix.ru
+Пользователь имеет почту dratov@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welcome!.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200122083444
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200122150424
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3524
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Maria Musailova,OU=Users,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+mmusailova@fix.ru
+Пользователь имеет почту mmusailova@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200122150432
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200122154924
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 2872
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Rodion Senyashin,OU=Users,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+rsenyashin@fix.ru
+Пользователь имеет почту rsenyashin@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200122154930
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200127094924
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3492
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Kseniia Gabdrakhmanova,OU=Users,OU=EPN,OU=CG FIX,DC=hq,DC=fix,DC=ru
+kgabdrakhmanova@fix.ru
+Пользователь имеет почту kgabdrakhmanova@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welcome!.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200127094945
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200127113424
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3656
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Guzel Kabirova,OU=Users,OU=Call-center,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+gkabirova@fix.ru
+Пользователь имеет почту gkabirova@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200127113427
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200128084925
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 924
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=admin testerov,OU=Users,OU=SAD,OU=CG FIX,DC=hq,DC=fix,DC=ru
+atesterov@fix.ru
+Пользователь имеет почту atesterov@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+Исключение при вызове "Send" с "1" аргументами: "Почтовый ящик недоступен. Отклик сервера: 5.1.1 Mailbox <atesterov@fix.
+ru> does not exist"
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:96 знак:3
++         $smtp.Send($msg)
++         ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SmtpFailedRecipientException
+Исключение при вызове "Send" с "1" аргументами: "Почтовый ящик недоступен. Отклик сервера: 5.1.1 Mailbox <atesterov@fix
+.ru> does not exist"
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:96 знак:3
++         $smtp.Send($msg)
++         ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SmtpFailedRecipientException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200128084929
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200128141925
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 4984
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Irina Kuchina,OU=Users,OU=HR,OU=CG FIX,DC=hq,DC=fix,DC=ru
+ikuchina@fix.ru
+Пользователь имеет почту ikuchina@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200128141935
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200128143425
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 2892
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Alexey Nikitin,OU=Users,OU=131,OU=CG FIX,DC=hq,DC=fix,DC=ru
+anikitin@fix.ru
+Пользователь имеет почту anikitin@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200128143426
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200129084925
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 5860
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Zinaida Leonteva,OU=Users,OU=EPN,OU=CG FIX,DC=hq,DC=fix,DC=ru
+zleonteva@fix.ru
+Пользователь имеет почту zleonteva@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welcome!.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200129084945
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200129104925
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3184
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Vyacheslav Popov,OU=Users,OU=MegaFon,DC=hq,DC=fix,DC=ru
+vyacheslav.popov@Megafon.ru
+Пользователь имеет почту vyacheslav.popov@Megafon.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200129104926
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200130131927
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 4520
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Aliya Shaidullina,OU=Users,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+ashaidullina@fix.ru
+Пользователь имеет почту ashaidullina@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200130131934
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200204094928
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 6660
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Kamil Saidashev,OU=Users,OU=Leadership,OU=CG FIX,DC=hq,DC=fix,DC=ru
+ksaidashev@fix.ru
+Пользователь имеет почту ksaidashev@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200204094937
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200204131931
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 6612
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Semen Yakovlev,OU=Users,OU=Epayments,OU=CG FIX,DC=hq,DC=fix,DC=ru
+У пользоваетля нет почты
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200204131932
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200205143429
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 7348
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Kseniia Shabalina,OU=Users,OU=Testing Team,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+kshabalina@fix.ru
+Пользователь имеет почту kshabalina@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200205143432
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200207144931
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 4860
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Kristina Nikitina,OU=Users,OU=Call-center,OU=InformPartner,OU=CG FIX,DC=hq,DC=fix,DC=ru
+knikitina@fix.ru
+Пользователь имеет почту knikitina@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200207144932
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200210134930
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 2736
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=1cbit epa,OU=Users,OU=Epayments,OU=CG FIX,DC=hq,DC=fix,DC=ru
+У пользоваетля нет почты
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200210134930
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200210141929
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 4248
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Olga Kolesova,OU=Users,OU=MegaFon,DC=hq,DC=fix,DC=ru
+У пользоваетля нет почты
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200210141930
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200211084930
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 2844
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Marina Suntsova,OU=Users,OU=131,OU=CG FIX,DC=hq,DC=fix,DC=ru
+msuntsova@fix.ru
+Пользователь имеет почту msuntsova@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200211084933
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200211090430
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3780
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Aleksey Malafeev,OU=Users,OU=EPN,OU=CG FIX,DC=hq,DC=fix,DC=ru
+amalafeev@fix.ru
+Пользователь имеет почту amalafeev@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welcome!.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200211090458
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200211093430
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 632
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Vladimir Negrash,OU=Users,OU=131,OU=CG FIX,DC=hq,DC=fix,DC=ru
+vnegrash@fix.ru
+Пользователь имеет почту vnegrash@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200211093431
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200214163432
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 268
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Pavel Nashatyrev,OU=Users,OU=MegaFon,DC=hq,DC=fix,DC=ru
+PNashatyrev@yotateam.com
+Пользователь имеет почту PNashatyrev@yotateam.com
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200214163433
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200217094919
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3532
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Kamil Gataullin,OU=Users,OU=131,OU=CG FIX,DC=hq,DC=fix,DC=ru
+kgataullin@fix.ru
+Пользователь имеет почту kgataullin@fix.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200217094922
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200217134919
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 3008
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Ksenia Ubamzarova,OU=Users,OU=VASP,OU=CG FIX,DC=hq,DC=fix,DC=ru
+kubamzarova@fix.ru
+Пользователь имеет почту kubamzarova@fix.ru
+OU пользователя соответствует словарю
+Attaching File :-  Welkome_book 13.pdf
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200217134936
+**********************
+**********************
+Начало записи протокола Windows PowerShell
+Время начала: 20200218160420
+Имя пользователя: HQ\ad_script_exec
+Пользователь RunAs: HQ\ad_script_exec
+Компьютер: DCHETZNERA (Microsoft Windows NT 6.3.9600.0)
+Ведущее приложение: powershell.exe -File C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1
+ИД процесса: 4060
+PSVersion: 5.1.14409.1005
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1005
+BuildVersion: 10.0.14409.1005
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Scripts\new_AD_user_comp\send_mail_log.txt
+CN=Sergey Agrashkin,OU=Users,OU=MegaFon,DC=hq,DC=fix,DC=ru
+sergey.agrashkin@Megafon.ru
+Пользователь имеет почту sergey.agrashkin@Megafon.ru
+OU пользователя не соответствует словарю
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+ правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sendmail : Имя "sendmail" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+C:\Scripts\new_AD_user_comp\mail_to_new_user_NEW.ps1:103 знак:1
++ sendmail
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sendmail:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20200218160421
+**********************
