@@ -1,0 +1,14 @@
+<Root>
+  <WebURL>http://sup.fix.ru/windows/pss</WebURL>
+  <PathScript>C:\Scripts</PathScript>
+  <PubKey>98F5E2E5</PubKey>
+  <ListPathScripts>
+    <ListPath title="c:\scripts" />
+  </ListPathScripts>
+  <MailConfig>
+    <SMTPServer>mail.fix.ru</SMTPServer>
+    <FromEmail>winlog@fix.ru</FromEmail>
+    <ToEmail>anijazov@fix.ru</ToEmail>
+  </MailConfig>
+  <Version>1.2</Version>
+</Root>

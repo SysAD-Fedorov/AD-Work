@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<WebURL>http://sup.fix.ru/windows/pss</WebURL>
+	<PathScript>C:\Scripts</PathScript>
+	<PathBackup>C:\backup</PathBackup>
+	<PathNetwork>p:\</PathNetwork>
+	<ServerNetwork>\\192.168.130.9\backupbuh</ServerNetwork>
+	<Path1c>C:\Program Files (x86)\1cv8\8.3.6.2100\bin\1cv8.exe</Path1c>
+	<!-- 
+		TypeBackup имеет два типа:
+			1 - выгрузка из самой БД 1С, затем выгруженный файл пакуется в архив
+			2 - Файловый бэкап, буду упакованы файлы БД в архив
+	-->
+	<TypeBackup>2</TypeBackup>
+	<!--
+		Если TypeBackup = 1, то укажите далее в параметрах LOGIN 1C и PASSWORD 1C
+		Иначе можно оставить их пустыми
+	-->
+	<LOGIN1C>backup</LOGIN1C>
+	<PASSWD1C>y9GNUL51GSry</PASSWD1C>
+	<PubKey>98F5E2E5</PubKey>
+	<DBList>
+	<!--	<DB name="BP" dbpath="C:\1CBiT\1C_Bases\BP" /> -->
+		<DB name="UT" dbpath="D:\1CBiT\1C_Bases\Trade" />
+
+		<!--
+		<DB name="BP2" dbpath="D:\1CBiT\1C_Bases\bp2\BP" />
+		<DB name="BuhOsn" dbpath="D:\1CBiT\1C_Bases\BuhOsn" />
+		<DB name="ZUP" dbpath="D:\1CBiT\1C_Bases\HRM" /> 
+
+		<DB name="B_InformP" dbpath="D:\1CBiT\1C_Bases\Информпартнер" />
+		<DB name="Z_InformP" dbpath="D:\1CBiT\1C_Bases\ИнформпартнерЗП" />
+		<DB name="B_SCentrum" dbpath="D:\1CBiT\1C_Bases\Соушалцентрум" />
+		<DB name="Z_SCentrum" dbpath="D:\1CBiT\1C_Bases\СоушалцентрумЗП" />
+-->
+	</DBList>
+	<MailConfig>
+		<SMTPServer>mail.fix.ru</SMTPServer>
+		<smtpUser>expirespasslog</smtpUser>
+		<smtpPassw>27t19vqb))</smtpPassw>
+		<FromEmail>winlog@fix.ru</FromEmail>
+		<EmailList>
+			<ToEmail ADDR="anijazov@fix.ru" />
+			<ToEmail ADDR="arni2004@mail.ru" />
+		</EmailList>
+	</MailConfig>
+	<Version>1.0</Version>
+</Root>
